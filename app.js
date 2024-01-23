@@ -3,7 +3,7 @@ let paper = "Paper";
 let scissors = "Scissors";
 let playerScore = 0;
 let computerScore = 0;
-let game = true;
+
 
 function getComputerChoice() {
   let computerChoice = Math.floor(Math.random() * 3);
